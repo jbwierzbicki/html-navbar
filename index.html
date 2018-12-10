@@ -5,38 +5,55 @@
   <title></title>
 </head>
 <body>
-   <!––Div containing the navbar-->
+  <!-- Div containing navbar -->
   <div class="nav--desktop">
+    <!-- Div for mobile formatting -->
     <div class="mobile-wrapper">
+      <!-- Not sure about this one -->
       <div class="header-cart__wrapper hidden-lg">
         <a href="/cart" class="CartToggle header-cart"><i class="icon icon-ra_bag"></i></a>
+        <!-- Automated counter for items in cart -->
         <span class="header-cart__bubble cartCount has-items cartCount-updater  hidden-count">0</span>
       </div>
+      <!-- Div containing logo -->
       <div class="logo-wrapper">
+        <!-- Header logo with link -->
         <h1 class="h4 header-logo" itemscope="" itemtype="http://schema.org/Organization">
+          <!-- Logo icon -->
         <a href="/" itemprop="url"><i class="icon icon-ra_primary-logo"></i></a>
       </h1>
       </div>
       <a href="" class="menuToggle header-hamburger"></a>
     </div>
+    <!-- nav wrapper div -->
     <div class="header-menu nav-wrapper">
+      <!-- List element for menu -->
       <ul class="main-menu accessibleNav">
         <li class="grandparent  kids-4">
+          <!-- Mobile link for Shop and the + icon -->
           <a href="#" class="nav-link" id="Shop">Shop</a>
           <a href="#" class="nav-carat"><span class="plus">+</span><span class="minus">-</span></a>
+          <!-- Div containing shop submenu -->
           <div class="main-menu-dropdown">
+            <!-- Unordered list containing other unordered lists with list items for the shopping category -->
             <ul class="main-menu-dropdown--list">
               <li aria-haspopup="true">
+                <!-- Collections unordered list -->
                 <ul class="collection-nav--child">
+                  <!-- List item containing "All collections" -->
                   <li class="collection-nav--child-link">
+                    <!-- All collections header text linking to the full collections page -->
                     <h5><a href="/collections/all">All Collections</a></h5>
                   </li>
+                  <!-- New arrivals list item -->
                   <li class="collection-nav--child-link">
                     <h5><a href="/collections/new-arrivals">New Arrivals</a></h5>
                   </li>
                   <li class="collection-nav--child-link">
                     <h5><a href="/collections/bedding">Bedding</a></h5>
+                    <!-- Bedding unordered list -->
                     <ul class="collection-nav--grandchild">
+                      <!-- linked bedding list items -->
                       <li class="collection-nav--grandchild-link"><a href="/collections/duvets">Duvets</a></li>
                       <li class="collection-nav--grandchild-link"><a href="/collections/quilts">Coverlets + Quilts</a></li>
                       <li class="collection-nav--grandchild-link"><a href="/collections/pillowcases">Pillowcases</a></li>
@@ -47,17 +64,21 @@
                   </li>
                 </ul>
               </li>
+              <!-- Not sure about "aria-haspopup" -->
               <li aria-haspopup="true">
                 <ul class="collection-nav--child">
+                  <!-- Fabric unordered list -->
                   <li class="collection-nav--child-link">
                     <h5><a href="/collections/fabric-by-the-yard">Fabric</a></h5>
                     <ul class="collection-nav--grandchild">
+                      <!-- Fabric list items -->
                       <li class="collection-nav--grandchild-link"><a href="/collections/fabric-by-the-yard/Printed">Printed</a></li>
                       <li class="collection-nav--grandchild-link"><a href="/collections/fabric-by-the-yard/Woven">Woven</a></li>
                       <li class="collection-nav--grandchild-link"><a href="/collections/embroidered-fabrics">Embroidered</a></li>
                       <li class="collection-nav--grandchild-link"><a href="/collections/swatch-sets">Swatches</a></li>
                     </ul>
                   </li>
+                  <!-- Dining unordered list -->
                   <li class="collection-nav--child-link">
                     <h5><a href="/collections/table-linens">Dining</a></h5>
                     <ul class="collection-nav--grandchild">
@@ -67,13 +88,16 @@
                 </ul>
               </li>
               <li aria-haspopup="true">
+                <!-- Wallpaper unordered list -->
                 <ul class="collection-nav--child">
                   <li class="collection-nav--child-link">
                     <h5><a href="/collections/wallpapers">Wallpaper</a></h5>
                   </li>
+                  <!-- Accessories and Gifts unordered list -->
                   <li class="collection-nav--child-link">
                     <h5><a href="/collections/accessories-gift">Accessories + Gifts</a></h5>
                     <ul class="collection-nav--grandchild">
+                      <!-- Accessories and gifts list items -->
                       <li class="collection-nav--grandchild-link"><a href="/products/signed-copy-of-rebecca-atwoods-living-with-pattern">Book</a></li>
                       <li class="collection-nav--grandchild-link"><a href="/products/gift-card">Gift Card</a></li>
                       <li class="collection-nav--grandchild-link"><a href="/collections/zip-pouches">Zip Pouches</a></li>
@@ -83,10 +107,12 @@
                 </ul>
               </li>
               <li aria-haspopup="true">
+                <!-- Pillows unordered list -->
                 <ul class="collection-nav--child">
                   <li class="collection-nav--child-link">
                     <h5><a href="/collections/pillows">Pillows</a></h5>
                     <ul class="collection-nav--grandchild">
+                      <!-- Pillows list items -->
                       <li class="collection-nav--grandchild-link"><a href="/collections/pillows/Hand-Dyed">Hand Dyed</a></li>
                       <li class="collection-nav--grandchild-link"><a href="/collections/pillows/Printed">Printed</a></li>
                       <li class="collection-nav--grandchild-link"><a href="/collections/pillows/Woven">Woven</a></li>
@@ -95,6 +121,7 @@
                       <li class="collection-nav--grandchild-link"><a href="/products/custom-pillow">Custom</a></li>
                     </ul>
                   </li>
+                  <!-- Sale list item with link -->
                   <li class="collection-nav--child-link">
                     <h5><a href="https://rebeccaatwood.com/collections/sale">Sale</a></h5>
                   </li>
@@ -103,7 +130,9 @@
             </ul>
           </div>
         </li>
+        <!-- Other list items from the primary nav menu -->
         <li class="child  kids-0">
+          <!-- Each list item links to their respective page i.e. "about-us" -->
           <a href="/pages/about-us" class="nav-link" id="About">About</a>
         </li>
         <li class="child  kids-0">
@@ -130,5 +159,6 @@
       </ul>
     </div>
   </div>
+  <!-- End of navbar div -->
 </body>
 </html>
